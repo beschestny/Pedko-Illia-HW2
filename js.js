@@ -44,3 +44,47 @@ for (let i = 4; i <= 400; i++) {
     //console.log(i);
 }
 
+// 7) Print the numbers in sequence: 4 7 10 13 using a loop.
+
+for (let i = 4; i <= 13; i+=3) {
+    console.log(i);
+}
+
+// 8) Output the numbers 654 653 652 to zero.
+
+for (let i = 654; i >= 0; i--) {
+    // console.log(i);
+}
+
+// 9) Display all years from 1983 to 2017
+
+for ( let i = 1983; i <= 2017; i++) {
+    // console.log(i);
+}
+
+// 10) Print the numbers -4 -2 0 2 4 6 ...100.
+
+for ( let i = -4 ; i <= 100; i+=2) {
+    // console.log(i);
+}
+
+// 11) Find the sum of numbers from 0 to 100 (inclusive). (0+1+2+3+4+5)
+
+let sum = 0;
+for (let i = 0; i <= 100; i++) {
+    sum = sum + i;
+
+}
+console.log(sum);
+
+// 12) Fill the array as follows: enter 'x' in the first element, 'xx' in the second, 'xxx' in the third,
+// and so on. Enter the array length at the prompt.
+
+let a = +prompt('Enter a number');
+let arrayOfx = []
+
+for ( let i = 1; i <= a; i++){
+    arrayOfx.push('x'.repeat(i));
+}
+console.log(arrayOfx);
+
